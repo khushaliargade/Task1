@@ -4,13 +4,15 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 import Navbar from './component/Navbar';
 import Home from './component/Home';
+import Products from './component/Products';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    
+      <Navbar />
+      <Home />
+      <Products />
+
     </>
   );
 }

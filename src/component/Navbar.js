@@ -29,19 +29,19 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
-             </ul>
-             <div className='buttons'>
-                <button className='btn'></button>
-                <a href=""className='btn btn-outline-dark'>
-                  <i className='fa fa-sign-in me-2'></i>Login</a>
-            
-                <a href=""className='btn btn-outline-dark ms-2'>
-                  <i className='fa fa-user-plus me-2'></i>Register</a>
+            </ul>
+            <div className='buttons'>
+              <button className='btn'></button>
+              <a href="" className='btn btn-outline-dark'>
+                <i className='fa fa-sign-in me-2'></i>Login</a>
 
-                <a href=""className='btn btn-outline-dark ms-2'>
-                  <i className='fa fa-shopping-cart me-2'></i>Cart(0)</a>
-             </div>
-             </div>
+              <a href="" className='btn btn-outline-dark ms-2'>
+                <i className='fa fa-user-plus me-2'></i>Register</a>
+
+              <a href="" className='btn btn-outline-dark ms-2'>
+                <i className='fa fa-shopping-cart me-2'></i>Cart(0)</a>
+            </div>
+          </div>
         </div>
       </nav>
     </div>
