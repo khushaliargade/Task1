@@ -1,21 +1,36 @@
 import React from 'react'
 import Item from './Item'
+//import Products from './Products'
+//import SampleOutput from "./SampleOutput.json"
+
+import {
+    Input, Label
+} from "reactstrap"
+
+
 const Home = () => {
     return (
-        <div className="class">
-            <div className="card bg-dark text-black border-0">
-                <img src="/assest/pic.jpg" class="card-img" alt="Backgroung" height="550px" />
-                <div class="card-img-overlay d-flex flex-column justify-content-center">
-                    <div className="container">
-                    <h5 class="card-title display-3 fw-bolder mb-0">card title</h5>
-                    <p class="card-text lead fs-2">
-                        check all
-                    </p>
-                    <p class="card-text">last update</p>
+        <div className="product">
+            <div className="posts">
+                <img
+                    alt="Card image cap"
+                    src="./assest/plant.jpg"
+                    width="100%"
+                />
+
+
+                <div className="reviews">
+                    <Label  tag="h2" >
+                        Reviews
+                    </Label>
+                    <Input
+                        id="exampleText"
+                        name="text"
+                        type="textarea"
+                    />
                 </div>
-                </div>
-                
-                 
+
+
             </div>
         </div>
     )
