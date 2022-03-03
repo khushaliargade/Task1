@@ -25,12 +25,14 @@ function Home() {
         <div className="App">
             <header>
                 <h1>wiki seeker</h1>
-                <form className="search-box " onSubmit={handleSearch}>
+                <form className="search-box " >
+
                     <input type="search" placeholder="what are you looking for?"
                         value={search}
-                        onChange={e => setSearch(e.target.value)}
-
+                        onChange={e => setSearch(e.target.value)
+                        }
                     />
+                    <button className='button' onClick={handleSearch}>Submit</button>
                 </form>
                 {(searchInfo.totalhits) ? <p>search results: {searchInfo.totalhits}</p> : ''}
             </header>
